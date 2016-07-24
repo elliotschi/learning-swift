@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D624D091D456BA4008EF457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D624D081D456BA4008EF457 /* AppDelegate.swift */; };
+		4D624D0B1D456BA4008EF457 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D624D0A1D456BA4008EF457 /* FaceViewController.swift */; };
+		4D624D0E1D456BA4008EF457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D624D0C1D456BA4008EF457 /* Main.storyboard */; };
+		4D624D101D456BA4008EF457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D624D0F1D456BA4008EF457 /* Assets.xcassets */; };
+		4D624D131D456BA4008EF457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D624D111D456BA4008EF457 /* LaunchScreen.storyboard */; };
+		4D624D1E1D456BA5008EF457 /* FaceitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D624D1D1D456BA5008EF457 /* FaceitTests.swift */; };
+		4D624D291D456BA5008EF457 /* FaceitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D624D281D456BA5008EF457 /* FaceitUITests.swift */; };
+		4D624D381D456CD2008EF457 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D624D371D456CD2008EF457 /* FaceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D624D1A1D456BA5008EF457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D624CFD1D456BA4008EF457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D624D041D456BA4008EF457;
+			remoteInfo = Faceit;
+		};
+		4D624D251D456BA5008EF457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D624CFD1D456BA4008EF457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D624D041D456BA4008EF457;
+			remoteInfo = Faceit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D624D051D456BA4008EF457 /* Faceit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faceit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D624D081D456BA4008EF457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D624D0A1D456BA4008EF457 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
+		4D624D0D1D456BA4008EF457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D624D0F1D456BA4008EF457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D624D121D456BA4008EF457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D624D141D456BA4008EF457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D624D191D456BA5008EF457 /* FaceitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D624D1D1D456BA5008EF457 /* FaceitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceitTests.swift; sourceTree = "<group>"; };
+		4D624D1F1D456BA5008EF457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D624D241D456BA5008EF457 /* FaceitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D624D281D456BA5008EF457 /* FaceitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceitUITests.swift; sourceTree = "<group>"; };
+		4D624D2A1D456BA5008EF457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D624D371D456CD2008EF457 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D624D021D456BA4008EF457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D624D161D456BA5008EF457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D624D211D456BA5008EF457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D624CFC1D456BA4008EF457 = {
+			isa = PBXGroup;
+			children = (
+				4D624D071D456BA4008EF457 /* Faceit */,
+				4D624D1C1D456BA5008EF457 /* FaceitTests */,
+				4D624D271D456BA5008EF457 /* FaceitUITests */,
+				4D624D061D456BA4008EF457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D624D061D456BA4008EF457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D624D051D456BA4008EF457 /* Faceit.app */,
+				4D624D191D456BA5008EF457 /* FaceitTests.xctest */,
+				4D624D241D456BA5008EF457 /* FaceitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D624D071D456BA4008EF457 /* Faceit */ = {
+			isa = PBXGroup;
+			children = (
+				4D624D361D456BC5008EF457 /* Supporting Files */,
+				4D624D0A1D456BA4008EF457 /* FaceViewController.swift */,
+				4D624D0C1D456BA4008EF457 /* Main.storyboard */,
+				4D624D111D456BA4008EF457 /* LaunchScreen.storyboard */,
+				4D624D371D456CD2008EF457 /* FaceView.swift */,
+			);
+			path = Faceit;
+			sourceTree = "<group>";
+		};
+		4D624D1C1D456BA5008EF457 /* FaceitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D624D1D1D456BA5008EF457 /* FaceitTests.swift */,
+				4D624D1F1D456BA5008EF457 /* Info.plist */,
+			);
+			path = FaceitTests;
+			sourceTree = "<group>";
+		};
+		4D624D271D456BA5008EF457 /* FaceitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D624D281D456BA5008EF457 /* FaceitUITests.swift */,
+				4D624D2A1D456BA5008EF457 /* Info.plist */,
+			);
+			path = FaceitUITests;
+			sourceTree = "<group>";
+		};
+		4D624D361D456BC5008EF457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D624D141D456BA4008EF457 /* Info.plist */,
+				4D624D0F1D456BA4008EF457 /* Assets.xcassets */,
+				4D624D081D456BA4008EF457 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D624D041D456BA4008EF457 /* Faceit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D624D2D1D456BA5008EF457 /* Build configuration list for PBXNativeTarget "Faceit" */;
+			buildPhases = (
+				4D624D011D456BA4008EF457 /* Sources */,
+				4D624D021D456BA4008EF457 /* Frameworks */,
+				4D624D031D456BA4008EF457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Faceit;
+			productName = Faceit;
+			productReference = 4D624D051D456BA4008EF457 /* Faceit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D624D181D456BA5008EF457 /* FaceitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D624D301D456BA5008EF457 /* Build configuration list for PBXNativeTarget "FaceitTests" */;
+			buildPhases = (
+				4D624D151D456BA5008EF457 /* Sources */,
+				4D624D161D456BA5008EF457 /* Frameworks */,
+				4D624D171D456BA5008EF457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D624D1B1D456BA5008EF457 /* PBXTargetDependency */,
+			);
+			name = FaceitTests;
+			productName = FaceitTests;
+			productReference = 4D624D191D456BA5008EF457 /* FaceitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D624D231D456BA5008EF457 /* FaceitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D624D331D456BA5008EF457 /* Build configuration list for PBXNativeTarget "FaceitUITests" */;
+			buildPhases = (
+				4D624D201D456BA5008EF457 /* Sources */,
+				4D624D211D456BA5008EF457 /* Frameworks */,
+				4D624D221D456BA5008EF457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D624D261D456BA5008EF457 /* PBXTargetDependency */,
+			);
+			name = FaceitUITests;
+			productName = FaceitUITests;
+			productReference = 4D624D241D456BA5008EF457 /* FaceitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D624CFD1D456BA4008EF457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "elli chi";
+				TargetAttributes = {
+					4D624D041D456BA4008EF457 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9PZFVF9J9P;
+						DevelopmentTeamName = "Elliot Chi (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					4D624D181D456BA5008EF457 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9PZFVF9J9P;
+						DevelopmentTeamName = "Elliot Chi (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D624D041D456BA4008EF457;
+					};
+					4D624D231D456BA5008EF457 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9PZFVF9J9P;
+						DevelopmentTeamName = "Elliot Chi (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D624D041D456BA4008EF457;
+					};
+				};
+			};
+			buildConfigurationList = 4D624D001D456BA4008EF457 /* Build configuration list for PBXProject "Faceit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D624CFC1D456BA4008EF457;
+			productRefGroup = 4D624D061D456BA4008EF457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D624D041D456BA4008EF457 /* Faceit */,
+				4D624D181D456BA5008EF457 /* FaceitTests */,
+				4D624D231D456BA5008EF457 /* FaceitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D624D031D456BA4008EF457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D624D131D456BA4008EF457 /* LaunchScreen.storyboard in Resources */,
+				4D624D101D456BA4008EF457 /* Assets.xcassets in Resources */,
+				4D624D0E1D456BA4008EF457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D624D171D456BA5008EF457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D624D221D456BA5008EF457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D624D011D456BA4008EF457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D624D0B1D456BA4008EF457 /* FaceViewController.swift in Sources */,
+				4D624D091D456BA4008EF457 /* AppDelegate.swift in Sources */,
+				4D624D381D456CD2008EF457 /* FaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D624D151D456BA5008EF457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D624D1E1D456BA5008EF457 /* FaceitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D624D201D456BA5008EF457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D624D291D456BA5008EF457 /* FaceitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D624D1B1D456BA5008EF457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D624D041D456BA4008EF457 /* Faceit */;
+			targetProxy = 4D624D1A1D456BA5008EF457 /* PBXContainerItemProxy */;
+		};
+		4D624D261D456BA5008EF457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D624D041D456BA4008EF457 /* Faceit */;
+			targetProxy = 4D624D251D456BA5008EF457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D624D0C1D456BA4008EF457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D624D0D1D456BA4008EF457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D624D111D456BA4008EF457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D624D121D456BA4008EF457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D624D2B1D456BA5008EF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D624D2C1D456BA5008EF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D624D2E1D456BA5008EF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Faceit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliotschi.Faceit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D624D2F1D456BA5008EF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Faceit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliotschi.Faceit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4D624D311D456BA5008EF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliotschi.FaceitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faceit.app/Faceit";
+			};
+			name = Debug;
+		};
+		4D624D321D456BA5008EF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliotschi.FaceitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faceit.app/Faceit";
+			};
+			name = Release;
+		};
+		4D624D341D456BA5008EF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaceitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliotschi.FaceitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Faceit;
+			};
+			name = Debug;
+		};
+		4D624D351D456BA5008EF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaceitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliotschi.FaceitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Faceit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D624D001D456BA4008EF457 /* Build configuration list for PBXProject "Faceit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D624D2B1D456BA5008EF457 /* Debug */,
+				4D624D2C1D456BA5008EF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D624D2D1D456BA5008EF457 /* Build configuration list for PBXNativeTarget "Faceit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D624D2E1D456BA5008EF457 /* Debug */,
+				4D624D2F1D456BA5008EF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D624D301D456BA5008EF457 /* Build configuration list for PBXNativeTarget "FaceitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D624D311D456BA5008EF457 /* Debug */,
+				4D624D321D456BA5008EF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D624D331D456BA5008EF457 /* Build configuration list for PBXNativeTarget "FaceitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D624D341D456BA5008EF457 /* Debug */,
+				4D624D351D456BA5008EF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D624CFD1D456BA4008EF457 /* Project object */;
+}
