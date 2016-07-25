@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4DA4311D458E13003787FA /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4DA4301D458E13003787FA /* FacialExpression.swift */; };
 		4D624D091D456BA4008EF457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D624D081D456BA4008EF457 /* AppDelegate.swift */; };
 		4D624D0B1D456BA4008EF457 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D624D0A1D456BA4008EF457 /* FaceViewController.swift */; };
 		4D624D0E1D456BA4008EF457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D624D0C1D456BA4008EF457 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D4DA4301D458E13003787FA /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		4D624D051D456BA4008EF457 /* Faceit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faceit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D624D081D456BA4008EF457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D624D0A1D456BA4008EF457 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				4D624D0C1D456BA4008EF457 /* Main.storyboard */,
 				4D624D111D456BA4008EF457 /* LaunchScreen.storyboard */,
 				4D624D371D456CD2008EF457 /* FaceView.swift */,
+				4D4DA4301D458E13003787FA /* FacialExpression.swift */,
 			);
 			path = Faceit;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D624D0B1D456BA4008EF457 /* FaceViewController.swift in Sources */,
+				4D4DA4311D458E13003787FA /* FacialExpression.swift in Sources */,
 				4D624D091D456BA4008EF457 /* AppDelegate.swift in Sources */,
 				4D624D381D456CD2008EF457 /* FaceView.swift in Sources */,
 			);
@@ -515,6 +519,7 @@
 				4D624D2F1D456BA5008EF457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D624D301D456BA5008EF457 /* Build configuration list for PBXNativeTarget "FaceitTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				4D624D321D456BA5008EF457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D624D331D456BA5008EF457 /* Build configuration list for PBXNativeTarget "FaceitUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				4D624D351D456BA5008EF457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
